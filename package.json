@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "node -r dotenv/config -r ts-node/register index.ts"
   },
   "dependencies": {
     "@types/puppeteer": "^2.0.1",
+    "dotenv": "^8.2.0",
     "puppeteer": "^2.1.1",
     "telegraf": "^3.36.0"
   },
